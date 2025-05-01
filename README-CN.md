@@ -9,7 +9,11 @@ python run_page/gen_svg.py --from-db --title "TT" --type github --athlete "TT" -
 
 python run_page/gen_svg.py --from-db --title "T3" --type github --athlete "T4" --output assets/grid.svg --min-distance 1.0 --special-color yellow --special-color2 red --special-distance 20 --special-distance2 40 --use-localtime
 ```
-
+需要修改这里
+```shell
+git config --local user.email "wgettingrich@gmail.com"
+git config --local user.name "Bytequestor"
+```
 
 
 
