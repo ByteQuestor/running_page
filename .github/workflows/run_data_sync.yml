@@ -242,7 +242,7 @@ jobs:
       - name: Push new runs
         if: env.SAVE_DATA_IN_GITHUB_CACHE != 'true'
         run: |
-          git config --local user.email "action@github.com"
+          git config --local user.email "wgettingrich@gmail.com"
           git config --local user.name "GitHub Action"
           git add .
           git commit -m 'update new runs' || echo "nothing to commit"
